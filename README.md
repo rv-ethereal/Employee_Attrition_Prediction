@@ -1,16 +1,33 @@
-# Employee Attrition Prediction using Machine Learning, Flask API, and DVC
-
-This project predicts whether an employee will leave the company using a trained machine learning model.  
-It includes a Flask-based API for real-time predictions and DVC for dataset and model versioning.
+<!-- PROJECT BANNER -->
+<p align="center">
+  <h1>Employee Attrition Prediction</h1>
+  <h3>Machine Learning + Flask API + DVC Versioning</h3>
+</p>
 
 ---
 
-## Features
-- End-to-end machine learning workflow  
-- Flask API for real-time prediction  
-- DVC used for dataset and notebook versioning  
-- Ready for deployment (Heroku supported)  
-- Pre-trained model included (`employee_attrition_model.pkl`)
+<!-- BADGES -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue" />
+  <img src="https://img.shields.io/badge/Flask-API-green" />
+  <img src="https://img.shields.io/badge/DVC-Enabled-purple" />
+  <img src="https://img.shields.io/badge/ML-Project-orange" />
+  <img src="https://img.shields.io/badge/Status-Active-success" />
+</p>
+
+---
+
+## 📌 Overview
+
+This project predicts whether an employee will leave the company using machine learning.  
+It includes a **Flask API**, **DVC for version control**, and a **pre-trained ML model** for real-time predictions.
+
+The objective is to provide HR teams with a data-driven system to identify employees at risk of attrition.
+
+---
+
+## 📁 Project Structure
+
 
 ---
 
