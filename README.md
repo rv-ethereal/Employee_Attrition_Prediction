@@ -1,4 +1,4 @@
-<!-- PROJECT BANNER -->
+<!--  -->
 <p align="center">
   <h1>Employee Attrition Prediction</h1>
   <h3>Machine Learning + Flask API + DVC Versioning</h3>
@@ -51,3 +51,45 @@ The objective is to provide HR teams with a data-driven system to identify emplo
 ├── requirements.txt
 ├── test_api.py.txt
 ├── Procfile.txt
+
+
+```
+
+## 🧠 ML Workflow
+
+1. Data Cleaning  
+2. Feature Engineering  
+3. Model Training (Random Forest / Logistic Regression)  
+4. Evaluation (Accuracy, Precision, ROC AUC)  
+5. Export model as `employee_attrition_model.pkl`  
+6. Serve model via Flask API  
+
+---
+
+## 🏗 System Architecture
+
+```text
+
+      +-------------+
+      |   User      |
+      +------+------+  
+             |
+             v
+    +--------+---------+
+    |   Flask API      |
+    |   (app.py)       |
+    +--------+---------+
+             |
+             v
+  +----------+-----------+
+  |  ML Model (.pkl)     |
+  |  Prediction Engine   |
+  +----------+-----------+
+             |
+             v
+    +--------+--------+
+    |  JSON Response  |
+    +-----------------+
+```
+
+
