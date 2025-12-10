@@ -1,4 +1,6 @@
-<!--  -->
+<div align="center">
+  <img src="https://image2url.com/images/1765350651181-06babfba-cc06-40e3-a682-6ff1e65a95d5.png" height="150"/>
+
 <p align="center">
   <h1>Employee Attrition Prediction</h1>
   <h3>Machine Learning + Flask API + DVC Versioning</h3>
